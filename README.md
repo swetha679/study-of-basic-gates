@@ -41,7 +41,7 @@ Y= (A+B)’
 
 **Ex-OR gate**
 
-The 'Exclusive-OR' gate is a circuit which will give a high output if either, but not both of its two inputs are high. An encircled plus sign (⊕) is used to show the Ex-OR operation.
+The 'Exclusive-OR' gate is a circuit that will give a high output if either, but not both of its two inputs are high. An encircled plus sign (⊕) is used to show the Ex-OR operation.
 Y= A⊕B
 
 **Ex-NOR gate**
@@ -64,16 +64,62 @@ Y= A⊕B
 
 **PROGRAM**
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by: Swetha Nivasini B R
+
+ 
+ RegisterNumber: 24900367
+
+ 
+
+ ''' module logic_gates(a, b,
+ 
+c1, c2, c3, c4, c5, c6, c7); 
+input a, b; 
+output c1, c2, c3, c4, c5, c6, c7; 
+assign c1 = ~a; 
+assign c2 = a & b;
+assign c3 = a | b; 
+assign c4 = ~(a & b); 
+assign c5 = ~(a | b); 
+assign c6 = a ^ b; 
+assign c7 = ~(a ^ b); 
+endmodule '''
+
  
 **Logic symbol & Truthtable**
 
-**RTL realization Output:** 
 
-**RTL**
+
+
+![image](https://github.com/user-attachments/assets/ecd23ad7-5e10-46fd-b53b-42cb78033a1f)
+
+
+
+
+**RTL** 
+
+
+
+
+![image](https://github.com/user-attachments/assets/6b1abd00-c2cd-4e53-b346-8dc177ace828)
+
+
+
+
+
+**output**
+
+
+
+![image](https://github.com/user-attachments/assets/260613e1-e3fa-4d63-827c-451c0104be65)
+
+
+
 
 **Result:**
+
+
+The truth table of the logic gates in Quartus II using verilog programming is verified.
 
 
