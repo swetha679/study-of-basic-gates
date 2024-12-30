@@ -94,7 +94,8 @@ assign c6 = a ^ b;
 
 assign c7 = ~(a ^ b);
 
-endmodule ```
+endmodule
+```
 
  
 **Logic symbol & Truthtable**
